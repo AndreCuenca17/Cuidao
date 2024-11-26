@@ -12,8 +12,7 @@ __pycache__/
 # Archivos estáticos grandes o innecesarios
 *.log
 *.csv
-*.xlsx
-*.geojson  # Archivos pesados específicos de tu proyecto
+ # Archivos pesados específicos de tu proyecto
 
 # Archivos del frontend
 node_modules/
