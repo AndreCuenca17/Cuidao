@@ -1,0 +1,100 @@
+.sidebar {
+    width: 16rem;
+    background-color: #0f4c35;
+    padding: 1rem;
+    min-height: 100vh;
+    color: white;
+}
+
+.panorama-button {
+    width: 100%;
+    background-color: #0f4c35;
+    color: #beb52c;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.panorama-button:hover {
+    background-color: #009999;
+}
+
+.options-container {
+    margin-bottom: 1rem;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+.option-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.option-item label {
+    cursor: pointer;
+}
+
+.navigation-buttons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nav-button {
+    width: 100%;
+    background-color: transparent;
+    color: #beb52c;
+    padding: 0.75rem;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Efecto de hover azulado */
+.nav-button:hover {
+    background-color: rgba(100, 149, 237, 0.2);
+}
+
+/* Estilo para el checkbox */
+.option-item input[type="checkbox"] {
+    accent-color: #00b3b3;
+    width: 16px;
+    height: 16px;
+}
+
+/* Estilo para el label del checkbox */
+.option-item label {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+/* Estilo para botones activos */
+.nav-button.active,
+.panorama-button.active {
+    background-color: #beb52c; /* Cambia el color de fondo para destacar el botón activo */
+    color: #0f4c35; /* Cambia el color del texto */
+    font-weight: bold; /* Negrita para resaltar */
+    border: 2px solid #009999; /* Añade un borde */
+}
+
+/* Opcional: transiciones suaves */
+.nav-button.active,
+.panorama-button.active {
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}

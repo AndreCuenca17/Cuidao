@@ -1,0 +1,24 @@
+.header {
+    background-color: #0f4c35;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000000; /* Borde blanco alrededor del header */
+    border-radius: 5px; /* Bordes redondeados */
+    
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header .logo-container img {
+    background-color: #0f4c35;
+    padding: 0.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
