@@ -1,0 +1,55 @@
+/* Asegurarse de que el HTML y el body ocupen el 100% */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegurar que el contenedor principal de la aplicación ocupe todo el alto */
+.App {
+  height: 100%; /* Esto hará que ocupe toda la altura */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor de la cabecera */
+.App-header {
+  background-color: #005288;
+  padding: 20px;
+  color: white;
+}
+
+/* Contenedor principal de contenido que contiene el sidebar y el mapa */
+.App-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #0f4c35;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Contenedor para el mapa, ocupando el espacio restante */
+.map-container {
+  flex-grow: 1; /* Ocupa todo el espacio restante */
+  overflow: hidden; /* Evitar que el contenido del mapa se desborde */
+}
+
+/* Si usas un iframe para el mapa, lo ajustas al 100% */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Estilo para etiquetas */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
