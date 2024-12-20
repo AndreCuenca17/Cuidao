@@ -36,7 +36,7 @@ def cargar_comisarias_desde_cache():
         ConvertirDictToList(datos_excel_comisarias, comisarias)
         
         # Guardar los datos en caché para la próxima vez
-        with open('comisarias_cache.pkl', 'wb') as file:
+        with open('cache/comisarias_cache.pkl', 'wb') as file:
             pickle.dump(comisarias, file)
         
         return comisarias

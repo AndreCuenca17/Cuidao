@@ -112,7 +112,7 @@ export default function CrimeForm() {
       });
       const data = await response.json();
       if (response.ok) {
-        setSuccessMessage('¡Denuncia registrada con éxito!');
+        alert('Denuncia registrada con éxito');
         setErrorMessage(''); // Limpiar errores si la respuesta es exitosa
       } else {
         setErrorMessage('');

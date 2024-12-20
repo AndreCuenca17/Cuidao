@@ -42,7 +42,18 @@
    - Después de ejecutar los pasos anteriores, la aplicación debería abrirse automáticamente en tu navegador. Si no es así, abre **http://localhost:3000** en tu navegador.
 
 ### Consideraciones
+   - Crear la carpeta **templates** dentro de **app** para el almacenamiento de los mapas
+   - Crear el archivo **.env** dentro de flask-backend y escribir las variables de entorno
+     ```
+     API_KEY = *****
+     MODEL_NAME = *****
+     ``` 
+   - Crear la carpeta **cache** dentro de flask-backend
    - Para ejecutar **npm start**, asegúrate de tener **Node.js** instalado. Si aún no lo tienes, puedes descargarlo desde [Node.js](https://nodejs.org/en/).
+   - Instalar las dependencias de Node.js dentro de **react-frontend** mediante el comando
+     ```
+     npm install
+     ``` 
    - Verifica que **npm** esté instalado correctamente ejecutando:
      ```
      npm --version
