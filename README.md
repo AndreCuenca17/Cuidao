@@ -47,10 +47,12 @@
      ```
      API_KEY = *****
      MODEL_NAME = *****
-     ``` 
+     ```
+   - Claves del API_KEY: https://drive.google.com/file/d/13nkr3OHoOMt_03386n_12cTuZVyEjxln/view?usp=sharing (Solicitar Acceso) 
    - Crear la carpeta **cache** dentro de flask-backend
    - Para ejecutar **npm start**, asegúrate de tener **Node.js** instalado. Si aún no lo tienes, puedes descargarlo desde [Node.js](https://nodejs.org/en/).
    - Instalar las dependencias de Node.js dentro de **react-frontend** mediante el comando
+     
      ```
      npm install
      ``` 
